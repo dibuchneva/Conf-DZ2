@@ -1,0 +1,4 @@
+visualizer_path,"/usr/bin/dot"
+package,"test_package.nupkg"
+output,"graph.png"
+max_depth,4

@@ -1,0 +1,8 @@
+digraph G {
+    graph [layout=neato, overlap=false, splines=true];
+    "test_package.nupkg"
+    "System.Threading.Tasks.Extensions" -> "test_package.nupkg";
+    "System.Runtime.CompilerServices.Unsafe" -> "test_package.nupkg";
+    "Microsoft.Bcl.AsyncInterfaces" -> "test_package.nupkg";
+    "Microsoft.Extensions.DependencyInjection.Abstractions" -> "test_package.nupkg";
+}
